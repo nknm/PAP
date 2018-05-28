@@ -1,0 +1,108 @@
+.indexnav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-color:black;
+    /* background: url("../images/xdxd.png"); */
+    
+}
+#logo-container{
+    height: 125px;
+    width: 325px;
+    margin: 0;
+    overflow: auto;
+}
+
+.fontslul{
+    position: fixed;
+    top: 35%;
+    left: 45%;
+    text-align: center;
+}
+
+#fontslul{
+    font-family: "Monument_Valley_1.2", serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Monument_Valley_1.2", serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+    
